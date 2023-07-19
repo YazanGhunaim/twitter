@@ -11,6 +11,8 @@ import Firebase
 @main
 struct TwitterCloneApp: App {
     
+    @StateObject var viewModel = AuthViewModel()
+    
     init() {
         FirebaseApp.configure()
     }
@@ -18,8 +20,15 @@ struct TwitterCloneApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                LoginView()
+                ContentView()
             }
+            .environmentObject(viewModel)
         }
+    }
+}
+
+struct Previews_TwitterCloneApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

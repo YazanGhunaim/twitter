@@ -33,6 +33,7 @@
 		EACD93522A66918C001E7046 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD93512A66918C001E7046 /* RoundedShape.swift */; };
 		EACD93542A6697B6001E7046 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD93532A6697B6001E7046 /* CustomInputField.swift */; };
 		EACD93572A669994001E7046 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD93562A669994001E7046 /* AuthHeaderView.swift */; };
+		EADA0EBB2A686E9200E9147D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA0EBA2A686E9200E9147D /* AuthViewModel.swift */; };
 		EADADE8A2A59B28C00E3AC1D /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADADE892A59B28C00E3AC1D /* UserRowView.swift */; };
 		EAFA765A2A5EA1850025CEF6 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA76592A5EA1850025CEF6 /* NewTweetView.swift */; };
 		EAFA765D2A5EA2850025CEF6 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA765C2A5EA2850025CEF6 /* TextArea.swift */; };
@@ -62,6 +63,7 @@
 		EACD93512A66918C001E7046 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		EACD93532A6697B6001E7046 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 		EACD93562A669994001E7046 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		EADA0EBA2A686E9200E9147D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		EADADE892A59B28C00E3AC1D /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 		EAFA76592A5EA1850025CEF6 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		EAFA765C2A5EA2850025CEF6 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 		EACD934A2A668FE9001E7046 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EADA0EBA2A686E9200E9147D /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				EACD93542A6697B6001E7046 /* CustomInputField.swift in Sources */,
 				EACD934D2A669009001E7046 /* LoginView.swift in Sources */,
 				EAFA765A2A5EA1850025CEF6 /* NewTweetView.swift in Sources */,
+				EADA0EBB2A686E9200E9147D /* AuthViewModel.swift in Sources */,
 				EACD93522A66918C001E7046 /* RoundedShape.swift in Sources */,
 				EADADE8A2A59B28C00E3AC1D /* UserRowView.swift in Sources */,
 				EA9A62032A59338E0039EF49 /* MainTabView.swift in Sources */,
