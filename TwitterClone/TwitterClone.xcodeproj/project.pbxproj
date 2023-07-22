@@ -28,6 +28,9 @@
 		EA9A620D2A5934B90039EF49 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A620C2A5934B90039EF49 /* MessagesView.swift */; };
 		EA9A62112A5935D00039EF49 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A62102A5935D00039EF49 /* ProfileView.swift */; };
 		EA9A62132A593BE70039EF49 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A62122A593BE70039EF49 /* TweetFilterViewModel.swift */; };
+		EAC56CC32A6ADC8200377067 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC56CC22A6ADC8200377067 /* ProfilePhotoSelectorView.swift */; };
+		EAC56CC62A6C598400377067 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC56CC52A6C598400377067 /* ImagePicker.swift */; };
+		EAC56CC82A6C60FF00377067 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC56CC72A6C60FF00377067 /* ImageUploader.swift */; };
 		EACD934D2A669009001E7046 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD934C2A669009001E7046 /* LoginView.swift */; };
 		EACD93502A669018001E7046 /* registrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD934F2A669018001E7046 /* registrationView.swift */; };
 		EACD93522A66918C001E7046 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD93512A66918C001E7046 /* RoundedShape.swift */; };
@@ -58,6 +61,9 @@
 		EA9A620C2A5934B90039EF49 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		EA9A62102A5935D00039EF49 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		EA9A62122A593BE70039EF49 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		EAC56CC22A6ADC8200377067 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
+		EAC56CC52A6C598400377067 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EAC56CC72A6C60FF00377067 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		EACD934C2A669009001E7046 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EACD934F2A669018001E7046 /* registrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationView.swift; sourceTree = "<group>"; };
 		EACD93512A66918C001E7046 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 		EA9A61DE2A592CF90039EF49 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				EAC56CC42A6C596F00377067 /* Utils */,
 				EA9A61F72A592DC50039EF49 /* Model */,
 				EA9A61F62A592D7B0039EF49 /* Service */,
 				EA9A61F52A592D790039EF49 /* Extensions */,
@@ -177,6 +184,7 @@
 		EA9A61F62A592D7B0039EF49 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				EAC56CC72A6C60FF00377067 /* ImageUploader.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -291,6 +299,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EAC56CC42A6C596F00377067 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAC56CC52A6C598400377067 /* ImagePicker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		EACD93482A668FC6001E7046 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +329,7 @@
 			children = (
 				EACD934C2A669009001E7046 /* LoginView.swift */,
 				EACD934F2A669018001E7046 /* registrationView.swift */,
+				EAC56CC22A6ADC8200377067 /* ProfilePhotoSelectorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -455,12 +472,15 @@
 			files = (
 				EA8E77722A5AC36E00F50F5A /* SideMenueOptionRowView.swift in Sources */,
 				EA9A620D2A5934B90039EF49 /* MessagesView.swift in Sources */,
+				EAC56CC62A6C598400377067 /* ImagePicker.swift in Sources */,
 				EA9A62112A5935D00039EF49 /* ProfileView.swift in Sources */,
 				EACD93572A669994001E7046 /* AuthHeaderView.swift in Sources */,
+				EAC56CC82A6C60FF00377067 /* ImageUploader.swift in Sources */,
 				EA9A61E22A592CF90039EF49 /* ContentView.swift in Sources */,
 				EAFA765D2A5EA2850025CEF6 /* TextArea.swift in Sources */,
 				EA9A62002A592F170039EF49 /* TweetRowView.swift in Sources */,
 				EA9A62132A593BE70039EF49 /* TweetFilterViewModel.swift in Sources */,
+				EAC56CC32A6ADC8200377067 /* ProfilePhotoSelectorView.swift in Sources */,
 				EA9A61FD2A592E6E0039EF49 /* FeedView.swift in Sources */,
 				EA8E776A2A5ABA3D00F50F5A /* SideMenuView.swift in Sources */,
 				EACD93502A669018001E7046 /* registrationView.swift in Sources */,
