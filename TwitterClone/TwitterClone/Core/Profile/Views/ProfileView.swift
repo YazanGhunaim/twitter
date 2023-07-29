@@ -31,6 +31,7 @@ struct ProfileView: View {
             tweetsView
             Spacer()
         }
+        .navigationBarHidden(true)
     }
 }
 
@@ -69,7 +70,7 @@ extension ProfileView {
                     .offset(x: 16, y: 24)
             }
         }
-        .frame(height: 120)
+        .frame(height: 96)
     }
     
     var actionButtons: some View {

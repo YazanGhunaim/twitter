@@ -41,6 +41,7 @@
 		EACD93572A669994001E7046 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD93562A669994001E7046 /* AuthHeaderView.swift */; };
 		EADA0EBB2A686E9200E9147D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA0EBA2A686E9200E9147D /* AuthViewModel.swift */; };
 		EADADE8A2A59B28C00E3AC1D /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADADE892A59B28C00E3AC1D /* UserRowView.swift */; };
+		EAEF2D492A75887A004BFC47 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEF2D482A75887A004BFC47 /* ExploreViewModel.swift */; };
 		EAFA765A2A5EA1850025CEF6 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA76592A5EA1850025CEF6 /* NewTweetView.swift */; };
 		EAFA765D2A5EA2850025CEF6 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA765C2A5EA2850025CEF6 /* TextArea.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		EACD93562A669994001E7046 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		EADA0EBA2A686E9200E9147D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		EADADE892A59B28C00E3AC1D /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		EAEF2D482A75887A004BFC47 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		EAFA76592A5EA1850025CEF6 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		EAFA765C2A5EA2850025CEF6 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -361,6 +363,7 @@
 		EADADE872A59B24300E3AC1D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EAEF2D482A75887A004BFC47 /* ExploreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				EA9A62002A592F170039EF49 /* TweetRowView.swift in Sources */,
 				EA9A62132A593BE70039EF49 /* TweetFilterViewModel.swift in Sources */,
 				EAC56CC32A6ADC8200377067 /* ProfilePhotoSelectorView.swift in Sources */,
+				EAEF2D492A75887A004BFC47 /* ExploreViewModel.swift in Sources */,
 				EA9A61FD2A592E6E0039EF49 /* FeedView.swift in Sources */,
 				EA8E776A2A5ABA3D00F50F5A /* SideMenuView.swift in Sources */,
 				EACD93502A669018001E7046 /* registrationView.swift in Sources */,
