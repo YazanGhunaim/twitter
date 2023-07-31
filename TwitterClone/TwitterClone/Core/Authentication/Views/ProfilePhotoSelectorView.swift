@@ -66,7 +66,7 @@ private struct profileImageModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(Color(.systemBlue))
-            .scaledToFit()
+            .scaledToFill()
             .frame(width: 180, height: 180)
             .clipShape(Circle())
     }
