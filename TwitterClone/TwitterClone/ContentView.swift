@@ -13,14 +13,7 @@ struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
-        Group {
-            // no user logged in
-            if viewModel.userSession == nil {
-                LoginView()
-            } else { // a user has logged in
-                mainInterfaceView
-            }
-        }
+        finalView
     }
 }
 
@@ -74,6 +67,17 @@ extension ContentView {
         }
         .onAppear {
             showMenu = false
+        }
+    }
+    
+    var finalView: some View {
+        Group {
+            // no user logged in
+            if viewModel.userSession == nil {
+                LoginView()
+            } else { // a user has logged in
+                mainInterfaceView
+            }
         }
     }
 }
