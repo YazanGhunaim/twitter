@@ -19,9 +19,13 @@ Twitter is one of the most influential social media platforms, known for its con
 The iOS Twitter clone comes with the following core features:
 
 User authentication: Users can sign up, log in, and log out securely.
+
 Create and post tweets: Users can compose new tweets and share them to the twitter feed.
+
 News Feed: Users can view tweets from other users in a chronological order.
+
 User Profiles: Each user has a profile page displaying their tweets and followers.
+
 Like: Users can like tweets posted by others.
 
 ## Screenshots
@@ -43,8 +47,11 @@ Like: Users can like tweets posted by others.
 To run this project on your local machine, follow these steps:
 
 Clone the repository: git clone https://github.com/YazanGhunaim/twitter.git
+
 Open the project in Xcode.
+
 Install the required dependencies.
+
 Build and run the application on the simulator or a physical device.
 
 ## Dependencies
@@ -52,7 +59,12 @@ Build and run the application on the simulator or a physical device.
 This project uses the following external libraries and frameworks:
 
 Kingfisher: For image downloading and caching.
+
 FirebaseAuth: For user authentication and management.
+
 FirebaseFirestore + FirebaseFirestoreSwift: For interacting with Firestore Database.
+
 FirebaseStorage: For storing user content.
+
 Make sure to install these dependencies before running the app.
+
